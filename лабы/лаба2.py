@@ -14,10 +14,10 @@ int main() {
         }
     }
 
-    // Вычисление сумм диагоналей
+    
     for (i = 0; i < 3; i++) {
-        main_diag_sum += matrix3x3[i][i];              // главная диагональ
-        secondary_diag_sum += matrix3x3[i][2 - i];     // побочная диагональ
+        main_diag_sum += matrix3x3[i][i];              
+        secondary_diag_sum += matrix3x3[i][2 - i];     
     }
 
     printf("\nСумма главной диагонали: %.2f\n", main_diag_sum);
@@ -35,7 +35,7 @@ int main() {
         }
     }
 
-    // Вычисление квадрата матрицы
+    
     result[0][0] = matrix2x2[0][0] * matrix2x2[0][0] + matrix2x2[0][1] * matrix2x2[1][0];
     result[0][1] = matrix2x2[0][0] * matrix2x2[0][1] + matrix2x2[0][1] * matrix2x2[1][1];
     result[1][0] = matrix2x2[1][0] * matrix2x2[0][0] + matrix2x2[1][1] * matrix2x2[1][0];
