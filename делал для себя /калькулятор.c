@@ -6,7 +6,7 @@ int main() {
     
     printf("Simple Calculator\n");
     printf("-----------------\n");
-
+    
     // Ввод чисел и оператора
     printf("Enter first number: ");
     scanf("%lf", &num1);
