@@ -20,7 +20,7 @@ int main() {
         printf("You are an adult.\n");
     } else {
         printf("You are a minor.\n");
-    }
+    }   
     
     return 0;
 }
