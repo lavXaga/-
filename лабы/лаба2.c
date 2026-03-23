@@ -21,7 +21,7 @@ int main() {
 	    }
 	
 	    for (i = 0; i < n; i++) {
-	        sum_main += mat[i][i];
+	        sum_main += mat[i][i];  
 	        sum_sec += mat[i][n - 1 - i];
 	    }
 	
