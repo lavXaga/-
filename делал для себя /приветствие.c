@@ -1,9 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // This is a simple C program
-    // It asks for your name and age
-    
+  
     char name[50];
     int age;
     
