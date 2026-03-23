@@ -17,7 +17,7 @@ int main() {
         }
     }
 
-    printf("Результат: %s", str);
+    printf("Результат: %s", str); 
 
     return 0;
 }
