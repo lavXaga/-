@@ -46,7 +46,7 @@ int main() {
 	    printf("%d %d\n", res[1][0], res[1][1]);
 		printf("continieu - 1,stop-0");
 		 printf("\nDo you want to solve another equation? (y/n): ");
-        scanf(" %c", &choice);
+        scanf(" %c", &choice); 
 	}
     return 0;
 }
