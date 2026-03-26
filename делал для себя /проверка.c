@@ -19,6 +19,6 @@ int main() {
     } else {
         printf("You are a minor.\n");
     }
-    
+     
     return 0;
 }
