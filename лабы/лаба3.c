@@ -16,7 +16,7 @@ int main() {
             str[i] = 'B';
         }
     }
-
+ 
     printf("Результат: %s", str); 
 
     return 0;
