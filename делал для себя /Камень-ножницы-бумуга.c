@@ -17,7 +17,7 @@ int main() {
         
         printf("Ты: %s\n", names[player]);
         printf("Комп: %s\n", names[computer]);
-        
+         
         if (player == computer)
             printf("Ничья!\n");
         else if ((player == 0 && computer == 1) ||
