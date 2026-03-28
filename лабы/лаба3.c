@@ -20,4 +20,4 @@ int main() {
     printf("Результат: %s", str); 
 
     return 0;
-}
+} 
