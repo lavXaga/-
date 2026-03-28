@@ -32,7 +32,7 @@ int main() {
 	    for (i = 0; i < 2; i++) {
 	        for (j = 0; j < 2; j++) {
 	            printf("mat2[%d][%d] = ", i, j);
-	            scanf("%d", &mat2[i][j]);
+	            scanf("%d", &mat2[i][j]);  
 	        }
 	    }
 	
