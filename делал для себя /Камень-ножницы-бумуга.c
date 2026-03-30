@@ -8,7 +8,7 @@ int main() {
     char again;
     
     srand(time(NULL));
-    
+     
     do {
         printf("\n0-Камень, 1-Ножницы, 2-Бумага: ");
         scanf("%d", &player);
