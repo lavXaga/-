@@ -12,7 +12,7 @@ int main() {
     do {
         printf("\n0-Камень, 1-Ножницы, 2-Бумага: ");
         scanf("%d", &player);
-        
+         
         computer = rand() % 3;
         
         printf("Ты: %s\n", names[player]);
