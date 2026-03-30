@@ -9,7 +9,7 @@ int main() {
     fgets(str, sizeof(str), stdin);
 
     // Замена 'a' и 'b' на заглавные
-    for (i = 0; str[i] != '\0'; i++) {
+    for (i = 0; str[i] != '\0'; i++) { 
         if (str[i] == 'a') {
             str[i] = 'A';
         } else if (str[i] == 'b') {
