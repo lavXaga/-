@@ -15,7 +15,7 @@ int main() {
         } else if (str[i] == 'b') {
             str[i] = 'B';
         }
-    }
+    }   
  
     printf("Результат: %s", str); 
 
