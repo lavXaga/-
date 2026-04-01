@@ -4,7 +4,7 @@
 int main() {
     char str[81];  // 80 символов + 1 для '\0'
     int i;
-
+ 
     printf("Введите строку (до 80 символов): ");
     fgets(str, sizeof(str), stdin);
 
