@@ -5,7 +5,7 @@
 int main() {
     int player, computer;
     char names[3][10] = {"Камень", "Ножницы", "Бумага"};
-    char again;
+    char again; 
     
     srand(time(NULL));
      
