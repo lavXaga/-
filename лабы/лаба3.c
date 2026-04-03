@@ -2,23 +2,32 @@
 #include <string.h>
 
 int main() {
-    char str[81];  // 80 символов + 1 для '\0'
+    char str[81];
+    char choice;
     int i;
- 
-    printf("Введите строку (до 80 символов): ");
-    fgets(str, sizeof(str), stdin);
-
-    // Замена 'a' и 'b' на заглавные
-    for (i = 0; str[i] != '\0'; i++) { 
-        if (str[i] == 'a') {
-            str[i] = 'A';
-        } else if (str[i] == 'b') {
-            str[i] = 'B';
+    
+    do {
+        printf("\nВведите строку (до 80 символов): ");
+        fgets(str, sizeof(str), stdin);
+        size_t len = strlen(str);
+        if (len > 0 && str[len-1] == '\n') {
+            str[len-1] = '\0';
         }
-    }   
- 
-    printf("Результат: %s", str); 
-   
-    return 0;  
-} 
-  
+        for (i = 0; str[i] != '\0'; i++) {
+            if (str[i] == 'а') {
+                str[i] = 'А';
+            } else if (str[i] == 'ь') {
+                str[i] = 'Ь';
+            }
+        }
+        
+        printf("Результат: %s\n", str);
+        
+        printf("\nХотите продолжить? (y/n): ");
+        scanf(" %c", &choice);
+        
+    } while (choice == 'y' || choice == 'Y');
+    
+    printf("Программа завершена.\n");
+    return 0;
+}
