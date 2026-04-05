@@ -13,11 +13,12 @@ int main() {
     std::cin >> num;
     if (num > nom) {
         std::cout<<"число "<<num<<" определенно больше "<<nom;
-        if (num < nom){
+    }
+    else if (num < nom){
 
             std::cout<<" число "<<num<<" определенно меньше "<<nom;
-        }
     }
+
     else {
         std::cout<<" число "<<num<<" = "<<nom;
     }
