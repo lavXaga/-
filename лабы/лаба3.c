@@ -16,7 +16,7 @@ int main() {
             int c;
             while ((c = getchar()) != '\n' && c != EOF);
         } 
-        for (i = 0; str[i] != '\0'; i++) {
+        for (i = 0; str[i] != '\0'; i++) { 
             if (str[i] == 'a') {
                 str[i] = 'A';
             } else if (str[i] == 'b') {
