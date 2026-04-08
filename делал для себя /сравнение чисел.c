@@ -23,6 +23,6 @@ int main() {
         std::cout<<" число "<<num<<" = "<<nom;
     }
 
-
+ 
     return 0;  
 }
