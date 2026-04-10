@@ -15,3 +15,4 @@ int is_valid_triangle(double a, double b, double c) {
     if (a + b > c && a + c > b && b + c > a) return 1;
     return 0;
 } 
+ 
