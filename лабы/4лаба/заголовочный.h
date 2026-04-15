@@ -3,7 +3,7 @@
 
 #endif
 #ifndef ZAGOLOVOCHNY_H
-#define ZAGOLOVOCHNY_H
+#define ZAGOLOVOCHNY_H 
 
 double calculate_perimeter(double a, double b, double c);
 double calculate_area(double a, double b, double c);
