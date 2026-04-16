@@ -16,7 +16,7 @@ int main() {
 	    for (i = 0; i < n; i++) {
 	        for (j = 0; j < n; j++) {
 	            printf("mat[%d][%d] = ", i, j);
-	            scanf("%lf", &mat[i][j]);
+	            scanf("%lf", &mat[i][j]); 
 	    } 
 	    }
 	
