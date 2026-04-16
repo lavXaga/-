@@ -14,7 +14,7 @@ int main() {
             str[len-1] = '\0'; 
         } else {
             int c;
-            while ((c = getchar()) != '\n' && c != EOF);
+            while ((c = getchar()) != '\n' && c != EOF);  
         } 
         for (i = 0; str[i] != '\0'; i++) { 
             if (str[i] == 'a') {
