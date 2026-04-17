@@ -48,5 +48,5 @@ int main() {
 		 printf("\nDo you want to solve another equation? (y/n): ");
         scanf(" %c", &choice); 
 	}
-    return 0;
+    return 0; 
 }
