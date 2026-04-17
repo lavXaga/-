@@ -10,5 +10,5 @@ int main() {
     
     printf("Случайное число: %d\n", random_number);
 
-    return 0;
+    return 0; 
 }
