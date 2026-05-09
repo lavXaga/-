@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() { 
-   	char choice = 'y';
+   	char choice = 'y'; 
    	while (choice == 'y' || choice == 'Y') {
         printf("\n=== Solving Quadratic Equation ===\n");
         
