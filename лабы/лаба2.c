@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main() { 
+int main() {  
    	char choice = 'y'; 
    	while (choice == 'y' || choice == 'Y') {
         printf("\n=== Solving Quadratic Equation ===\n");
