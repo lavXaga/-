@@ -18,7 +18,7 @@ int main() {
 	            printf("mat[%d][%d] = ", i, j);
 	            scanf("%lf", &mat[i][j]); 
 	    } 
-	    }
+	    } 
 	
 	    for (i = 0; i < n; i++) {
 	        sum_main += mat[i][i];  
