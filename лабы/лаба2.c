@@ -11,7 +11,7 @@ int main() {
 	    int i, j;
 	    int mat2[2][2]; 
 	    int res[2][2]; 
-		  
+		   
 	    printf("Enter elements of %dx%d matrix (double):\n", n, n);
 	    for (i = 0; i < n; i++) {
 	        for (j = 0; j < n; j++) {
