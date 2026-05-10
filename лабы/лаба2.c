@@ -10,7 +10,7 @@ int main() {
 	    double sum_main = 0, sum_sec = 0;
 	    int i, j;
 	    int mat2[2][2]; 
-	    int res[2][2];
+	    int res[2][2]; 
 		
 	    printf("Enter elements of %dx%d matrix (double):\n", n, n);
 	    for (i = 0; i < n; i++) {
