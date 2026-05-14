@@ -5,7 +5,7 @@ int main() {
     char str[81];
     char choice;
     int i;
-     
+      
     do {
         printf("\nEnter a string (up to 80 characters): ");
         fgets(str, sizeof(str), stdin);
