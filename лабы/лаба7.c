@@ -24,5 +24,5 @@ int main() {
     for (i = 0; i < 4; i++)
         printf("%s %s %d\n", b[i].name, b[i].surname, b[i].year);
 
-    return 0;
+    return 0; 
 }
