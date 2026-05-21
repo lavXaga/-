@@ -25,4 +25,4 @@ int main() {
         printf("%s %s %d\n", b[i].name, b[i].surname, b[i].year);
 
     return 0; 
-}
+} 
