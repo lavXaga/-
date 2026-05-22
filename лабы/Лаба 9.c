@@ -33,7 +33,7 @@ int main() {
     int op_index = 0;
     while ((token = strtok(NULL, "+- \n")) != NULL) {
         num1 = atof(token);
-        if (op[op_index] == '+') {
+        if (op[op_index] == '+') { 
             result = result + num1;
         }else if (op[op_index] == '-') {
             result = result - num1;
