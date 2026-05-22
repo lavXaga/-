@@ -25,7 +25,7 @@ int main() {
             op[op_count] = str[i];
             op_count++;
         }
-    }
+    } 
     strcpy(copy, str); 
     token = strtok(copy, "+- \n");
     num1 = atof(token);
