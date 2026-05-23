@@ -21,7 +21,7 @@ int main() {
     fgets(str, 100, stdin);
     op_count = 0;
     for (i = 0; str[i] != '\0'; i++) {
-        if  (i > 0 && (str[i] == '+' || str[i] == '-')) {
+        if  (i > 0 && (str[i] == '+' || str[i] == '-')) { 
             op[op_count] = str[i];
             op_count++;
         }
