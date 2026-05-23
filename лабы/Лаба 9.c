@@ -14,7 +14,7 @@ int main() {
     char *token;
     double result;
     double num1;
-    int op_count = 0;
+    int op_count = 0; 
     int i;
 
     printf("пример:");
