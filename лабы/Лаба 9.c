@@ -13,7 +13,7 @@ int main() {
     char op[50];
     char *token;
     double result;
-    double num1;
+    double num1; 
     int op_count = 0; 
     int i;
 
