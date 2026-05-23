@@ -15,7 +15,7 @@ int main() {
     double result;
     double num1; 
     int op_count = 0; 
-    int i;
+    int i; 
 
     printf("пример:");
     fgets(str, 100, stdin);
