@@ -10,7 +10,7 @@ typedef struct {
 int main() {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    humen a[4], b[4]; 
+    humen a[4], b[4];  
     int i, j;
     printf("4 человека:\n");
     for (i = 0; i < 4; i++)
