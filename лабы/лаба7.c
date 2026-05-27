@@ -7,7 +7,7 @@ typedef struct {
     int year;
 } humen;
  
-int main() {
+int main() { 
     SetConsoleCP(1251); 
     SetConsoleOutputCP(1251);
     humen a[4], b[4];  
