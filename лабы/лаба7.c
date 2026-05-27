@@ -6,7 +6,7 @@ typedef struct {
     char surname[50];
     int year;
 } humen;
-
+ 
 int main() {
     SetConsoleCP(1251); 
     SetConsoleOutputCP(1251);
