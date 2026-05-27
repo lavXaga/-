@@ -8,7 +8,7 @@ typedef struct {
 } humen;
 
 int main() {
-    SetConsoleCP(1251);
+    SetConsoleCP(1251); 
     SetConsoleOutputCP(1251);
     humen a[4], b[4];  
     int i, j;
