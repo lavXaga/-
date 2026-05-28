@@ -11,7 +11,7 @@ int main() {
     char str[100];
     char copy[100]; 
     char op[50];
-    char *token;
+    char *token; 
     double result;
     double num1; 
     int op_count = 0; 
