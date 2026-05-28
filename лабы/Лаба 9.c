@@ -9,7 +9,7 @@ int main() {
     SetConsoleOutputCP(1251);
 
     char str[100];
-    char copy[100]; 
+    char copy[100];  
     char op[50];
     char *token; 
     double result;
