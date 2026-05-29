@@ -10,7 +10,7 @@
     } while(0)
 
 int main() {
-    SetConsoleCP(1251);
+    SetConsoleCP(1251); 
     SetConsoleOutputCP(1251);
 
     char str[100];
