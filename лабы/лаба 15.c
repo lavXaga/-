@@ -23,7 +23,7 @@ int main() {
     int n;
     printf("число: ");
     scanf("%d",&n);
-    p(n,0);
+    p(n,0); 
     printf("\n");
     p(n,1);
     printf("\n");
